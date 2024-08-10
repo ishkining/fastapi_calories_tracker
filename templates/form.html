@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<body>
+    <form method="post">
+        <label for="text">Enter text:</label>
+        <textarea id="text" name="text" rows="20" cols="55"></textarea>
+        <input type="submit" value="Submit">
+    </form>
+    <textarea disabled rows="20" cols="55">{{ text }}</textarea>
+</body>
+</html>
